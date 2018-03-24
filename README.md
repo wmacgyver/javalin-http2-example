@@ -13,3 +13,6 @@ When you run the main class, there will be a http 1.1 server on port 8080. and h
 Open chrome and go to https://localhost:8443 you'll see in the Developer tools under network tab, you are connecting using h2
 
 Discussion in [github issue](https://github.com/tipsy/javalin/issues/151)
+
+
+the api version you need to use is specific to the java 8 version you are running as per [here](https://www.eclipse.org/jetty/documentation/9.4.x/alpn-chapter.html#alpn-versions)
